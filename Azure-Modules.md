@@ -94,7 +94,7 @@ Install-Module Az.RedisCache
 
 Install-Module Az.Relay              
 
-Install-Module Az.Resources         
+Install-Module Az.Resources           `(To create\manage Resource group)`        
 
 Install-Module Az.ServiceBus          
 
