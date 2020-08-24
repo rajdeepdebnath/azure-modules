@@ -120,8 +120,9 @@ Import-Module Az.Websites -RequiredVersion 1.11.0 -Global
 
 
 
-#Uninstall Azure modules
+# Uninstall Azure modules
 
+```
 workflow Uninstall-AzureModules
 {
     $Modules = (Get-Module -ListAvailable Az*).Name |Get-Unique
@@ -131,7 +132,10 @@ workflow Uninstall-AzureModules
         Uninstall-Module $Module -Force
     }
 }
+
 Uninstall-AzureModules
-Uninstall-AzureModules 
+
+Uninstall-AzureModules
+```
 
 [Thanks](https://stackoverflow.com/a/50297028/9648252)
