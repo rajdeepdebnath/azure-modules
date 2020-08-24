@@ -1,6 +1,6 @@
 # azure-modules
 
-Install-Module Az.Accounts
+Install-Module Az.Accounts `(To connect to azure)`
 
 Install-Module Az.Advisor                
 
@@ -22,7 +22,7 @@ Install-Module Az.Cdn
 
 Install-Module Az.CognitiveServices       
 
-Install-Module Az.Compute                 
+Install-Module Az.Compute          `(To create\manage vm)`        
 
 Install-Module Az.ContainerInstance       
 
