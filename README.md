@@ -2,121 +2,121 @@
 
 Install-Module Az.Accounts
 
-Import-Module Az.Advisor -RequiredVersion 1.1.1 -Global
+Install-Module Az.Advisor                
 
-Import-Module Az.Aks -RequiredVersion 1.2.0 -Global
+Install-Module Az.Aks                     
 
-Import-Module Az.AnalysisServices -RequiredVersion 1.1.4 -Global
+Install-Module Az.AnalysisServices        
 
-Import-Module Az.ApiManagement -RequiredVersion 2.1.0 -Global
+Install-Module Az.ApiManagement          
 
-Import-Module Az.ApplicationInsights -RequiredVersion 1.1.0 -Global
+Install-Module Az.ApplicationInsights     
 
-Import-Module Az.Automation -RequiredVersion 1.3.7 -Global
+Install-Module Az.Automation              
 
-Import-Module Az.Batch -RequiredVersion 3.1.0 -Global
+Install-Module Az.Batch                   
 
-Import-Module Az.Billing -RequiredVersion 1.0.3 -Global
+Install-Module Az.Billing                 
 
-Import-Module Az.Cdn -RequiredVersion 1.4.3 -Global
+Install-Module Az.Cdn                     
 
-Import-Module Az.CognitiveServices -RequiredVersion 1.5.1 -Global
+Install-Module Az.CognitiveServices       
 
-Import-Module Az.Compute -RequiredVersion 4.2.1 -Global
+Install-Module Az.Compute                 
 
-Import-Module Az.ContainerInstance -RequiredVersion 1.0.3 -Global
+Install-Module Az.ContainerInstance       
 
-Import-Module Az.ContainerRegistry -RequiredVersion 1.1.1 -Global
+Install-Module Az.ContainerRegistry       
 
-Import-Module Az.DataBoxEdge -RequiredVersion 1.1.0 -Global
+Install-Module Az.DataBoxEdge             
 
-Import-Module Az.DataFactory -RequiredVersion 1.9.0 -Global
+Install-Module Az.DataFactory             
 
-Import-Module Az.DataLakeAnalytics -RequiredVersion 1.0.2 -Global
+Install-Module Az.DataLakeAnalytics       
 
-Import-Module Az.DataLakeStore -RequiredVersion 1.2.8 -Global
+Install-Module Az.DataLakeStore           
 
-Import-Module Az.DataShare -RequiredVersion 1.0.0 -Global
+Install-Module Az.DataShare               
 
-Import-Module Az.DesktopVirtualization -RequiredVersion 1.0.0 -Global
+Install-Module Az.DesktopVirtualization   
 
-Import-Module Az.DeploymentManager -RequiredVersion 1.1.0 -Global
+Install-Module Az.DeploymentManager       
 
-Import-Module Az.DevTestLabs -RequiredVersion 1.0.2 -Global
+Install-Module Az.DevTestLabs             
 
-Import-Module Az.Dns -RequiredVersion 1.1.2 -Global
+Install-Module Az.Dns                     
 
-Import-Module Az.EventGrid -RequiredVersion 1.3.0 -Global
+Install-Module Az.EventGrid               
 
-Import-Module Az.EventHub -RequiredVersion 1.5.0 -Global
+Install-Module Az.EventHub                
 
-Import-Module Az.FrontDoor -RequiredVersion 1.6.1 -Global
+Install-Module Az.FrontDoor              
 
-Import-Module Az.Functions -RequiredVersion 1.0.1 -Global
+Install-Module Az.Functions            
 
-Import-Module Az.HDInsight -RequiredVersion 3.4.0 -Global
+Install-Module Az.HDInsight               
 
-Import-Module Az.HealthcareApis -RequiredVersion 1.1.0 -Global
+Install-Module Az.HealthcareApis          
 
-Import-Module Az.IotHub -RequiredVersion 2.5.0 -Global
+Install-Module Az.IotHub                  
 
-Import-Module Az.KeyVault -RequiredVersion 2.0.0 -Global
+Install-Module Az.KeyVault                
 
-Import-Module Az.LogicApp -RequiredVersion 1.3.2 -Global
+Install-Module Az.LogicApp                
 
-Import-Module Az.MachineLearning -RequiredVersion 1.1.3 -Global
+Install-Module Az.MachineLearning         
 
-Import-Module Az.Maintenance -RequiredVersion 1.0.0 -Global
+Install-Module Az.Maintenance             
 
-Import-Module Az.ManagedServices -RequiredVersion 1.0.2 -Global
+Install-Module Az.ManagedServices         
 
-Import-Module Az.MarketplaceOrdering -RequiredVersion 1.0.2 -Global
+Install-Module Az.MarketplaceOrdering     
 
-Import-Module Az.Media -RequiredVersion 1.1.1 -Global
+Install-Module Az.Media             
 
-Import-Module Az.Monitor -RequiredVersion 2.0.2 -Global
+Install-Module Az.Monitor                 
 
-Import-Module Az.Network -RequiredVersion 3.3.0 -Global
+Install-Module Az.Network               
 
-Import-Module Az.NotificationHubs -RequiredVersion 1.1.1 -Global
+Install-Module Az.NotificationHubs        
 
-Import-Module Az.OperationalInsights -RequiredVersion 2.3.0 -Global
+Install-Module Az.OperationalInsights     
 
-Import-Module Az.PolicyInsights -RequiredVersion 1.3.1 -Global
+Install-Module Az.PolicyInsights          
 
-Import-Module Az.PowerBIEmbedded -RequiredVersion 1.1.2 -Global
+Install-Module Az.PowerBIEmbedded         
 
-Import-Module Az.PrivateDns -RequiredVersion 1.0.3 -Global
+Install-Module Az.PrivateDns              
 
-Import-Module Az.RecoveryServices -RequiredVersion 2.11.1 -Global
+Install-Module Az.RecoveryServices        
 
-Import-Module Az.RedisCache -RequiredVersion 1.2.1 -Global
+Install-Module Az.RedisCache           
 
-Import-Module Az.Relay -RequiredVersion 1.0.3 -Global
+Install-Module Az.Relay              
 
-Import-Module Az.Resources -RequiredVersion 2.4.0 -Global
+Install-Module Az.Resources         
 
-Import-Module Az.ServiceBus -RequiredVersion 1.4.1 -Global
+Install-Module Az.ServiceBus          
 
-Import-Module Az.ServiceFabric -RequiredVersion 2.1.0 -Global
+Install-Module Az.ServiceFabric           
 
-Import-Module Az.SignalR -RequiredVersion 1.1.1 -Global
+Install-Module Az.SignalR             
 
-Import-Module Az.Sql -RequiredVersion 2.9.1 -Global
+Install-Module Az.Sql             
 
-Import-Module Az.SqlVirtualMachine -RequiredVersion 1.1.0 -Global
+Install-Module Az.SqlVirtualMachine       
 
-Import-Module Az.Storage -RequiredVersion 2.4.0 -Global
+Install-Module Az.Storage       
 
-Import-Module Az.StorageSync -RequiredVersion 1.3.0 -Global
+Install-Module Az.StorageSync     
 
-Import-Module Az.StreamAnalytics -RequiredVersion 1.0.1 -Global
+Install-Module Az.StreamAnalytics   
 
-Import-Module Az.Support -RequiredVersion 1.0.0 -Global
+Install-Module Az.Support       
 
-Import-Module Az.TrafficManager -RequiredVersion 1.0.4 -Global
+Install-Module Az.TrafficManager   
 
-Import-Module Az.Websites -RequiredVersion 1.11.0 -Global
+Install-Module Az.Websites  
 
 
 
