@@ -117,3 +117,21 @@ Import-Module Az.Support -RequiredVersion 1.0.0 -Global
 Import-Module Az.TrafficManager -RequiredVersion 1.0.4 -Global
 
 Import-Module Az.Websites -RequiredVersion 1.11.0 -Global
+
+
+
+#Uninstall Azure modules
+
+workflow Uninstall-AzureModules
+{
+    $Modules = (Get-Module -ListAvailable Az*).Name |Get-Unique
+    Foreach -parallel ($Module in $Modules)
+    { 
+        Write-Output ("Uninstalling: $Module")
+        Uninstall-Module $Module -Force
+    }
+}
+Uninstall-AzureModules
+Uninstall-AzureModules 
+
+[Thanks](https://stackoverflow.com/a/50297028/9648252)
