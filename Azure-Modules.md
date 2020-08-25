@@ -122,6 +122,10 @@ Install-Module Az.Websites
 
 # Uninstall Azure modules
 
+### To delete individual modules
+Uninstall-Module $Module -Force
+
+### To delete all modules 
 ```
 workflow Uninstall-AzureModules
 {
