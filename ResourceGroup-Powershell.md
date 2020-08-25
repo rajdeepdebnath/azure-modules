@@ -2,6 +2,19 @@
 
 ```
 New-AzResourceGroup -Name $NewResourceGroupName -Location $location
+
+Get-AzResourceGroup -Name $ResourceGroupName
+
+Remove-AzResourceGroup -Name $ResourceGroupName
+```
+
+### Resource lock
+```
+New-AzResourceLock -LockName $Lock_Name -LockLevel $Lock_Level -ResourceGroupName -$ResourceGroup_Name
+
+Get-AzResourceLock
+
+Remove-AzResourceLock -LockName $Lock_Name -ResourceGroupName $Resource_Group_Name
 ```
 
 ### Azure locations
