@@ -71,3 +71,18 @@ $subnet = $vnet.Subnets
 
 $subnet
 ```
+
+## Loab balancer
+```
+$publicip = Get-AzPublicIpAddress -Name publicip1
+
+$front = New-AzLoadBalancerFrontendIpConfig -Name front1 -PublicIpAddress $publicip
+
+$bp = New-AzLoadBalancerBackendAddressPoolConfig -Name bpool1
+
+$probe = New-AzLoadBalancerProbeConfig -Name hrpobe1 -Protocol Http -Port 80 -RequestPath / -IntervalInSeconds 360 -ProbeCount 5
+
+$rule = New-AzLoadBalancerRuleConfig -Name rule1 -Protocol Tcp -FrontendPort 80 -Probe $probe -BackendPort 80 -FrontendIpConfiguration $front -BackendAddressPool $bp
+
+New-AzLoadBalancer -ResourceGroupName test1 -Name az1 -Sku Basic -Location 'East US' -FrontendIpConfiguration $front -BackendAddressPool $bp -LoadBalancingRule $rule -Probe $probe
+```
